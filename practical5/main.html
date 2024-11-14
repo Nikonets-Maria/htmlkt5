@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание «Практическа работа по разделу 5»</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Загрузка файлов и управление устройствами</h1>
+        
+        <div class="inputfile">
+            <input type="file" id="fileInput" multiple />
+            <div class="drop-area" id="dropArea">Перетащите файлы сюда</div>
+            <div id="fileContent"></div>
+        </div>
+
+        <div class="location">
+            <button id="getLocationBtn">Получить местоположение</button>
+            <div id="location"></div>
+        </div>
+
+        <div class="canvas">
+            <canvas id="canvas" width="320" height="240"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
